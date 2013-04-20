@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.ckarthik17.android.blog" android:versionCode="1" android:versionName="1.0-SNAPSHOT">
+          package="com.ckarthik.blog" android:versionCode="1" android:versionName="1.0-SNAPSHOT">
 
     <uses-sdk android:minSdkVersion="10" android:targetSdkVersion="17"/>
     <uses-permission android:name="android.permission.READ_CONTACTS" />
@@ -8,6 +8,13 @@
     <uses-permission android:name="android.permission.SEND_SMS"/>
 
     <application android:icon="@drawable/icon">
+        <activity android:name=".MainActivity"
+                  android:label="Main Activity">
+
+        </activity>
+
+        <activity android:name=".SecondActivity"
+                  android:label="Second Activity"/>
     </application>
 </manifest>
 

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+Here is the android code to start an activity on click of a button<br/><br/>
+<strong>Android Code to test :</strong><br/>
+<script src="https://gist.github.com/ckarthik17/ffaba23b71d64eaf3892.js"></script><br/>
+
+To test the above code,<br/>
+1) You can call button's performClick to simulate click
+2) Get the shadowActivity using the robolectric's shadowOf method <br/>
+3) This shadow Object has all the methods to test an activity.<br/>
+4) We can get the next started activity's Intent, using the getNextStartedActivity() method and assert it<br/><br/>
+<strong>Robolectric Test :</strong>
+<script src="https://gist.github.com/ckarthik17/30c6510480e97a4e1754.js"></script><br />
+</body>
+</html>
