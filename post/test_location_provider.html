@@ -1,0 +1,11 @@
+Here is the android code to register for network, GPS and passive location updates on activity create<br/><br/>
+<strong>Android Code to test :</strong><br/>
+<script src="https://gist.github.com/ckarthik17/7c3378f1efeb1b319647.js"></script><br/>
+
+To test the above code,<br/>
+1) First you need to create a mock location </br>
+2) Get the ShadowLocationManager using the robolectric's shadowOf method <br/>
+3) This shadow Object has a method called 'simulateLocation' to mock a location update.<br/>
+4) Now we can assert the actual value obtained by the listener with the expected value<br/><br/>
+<strong>Robolectric Test :</strong>
+<script src="https://gist.github.com/ckarthik17/a73ddcdca0d70a638599.js"></script><br />
